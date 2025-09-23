@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend-bebe
+    ports:
+      - "25000:25000"
+    volumes:
+      - ./backend-bebe:/app          # monta a pasta do seu PC dentro do container
+      - /app/node_modules           # evita sobrescrever node_modules do container
+    working_dir: /app
+    command: npx nodemon index.js   # reinicia automaticamente quando o código muda
+
+  frontend:
+    build: ./frontend-bebe
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend-bebe:/usr/share/nginx/html  # monta a pasta do frontend
+
