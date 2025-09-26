@@ -28,5 +28,4 @@ Aplicação web interativa que organiza informações essenciais sobre cuidados 
 •	back: http://localhost:25000/api/data<br>
 •	front: http://localhost:8080<br>
 
-### Projeto desenvolvido por: <br>
-Isabella Sofia Martins - 10420398 <br> Jennifer Tondade - 10420574
+### Projeto desenvolvido por: Isabella Sofia Martins - RA: 10420398 e Jennifer Tondade - RA: 10420574
