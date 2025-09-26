@@ -2,7 +2,7 @@
 Aplicação web interativa que organiza informações essenciais sobre cuidados com bebês. Frontend em HTML/JS, backend em Node.js/Express, containerizado com Docker e deploy na AWS EC2.
 
 * Link para o vídeo com explicação das configurações e demo: [Configs para o deploy da aplicação via AWS](https://www.youtube.com/watch?v=BOiTgWbgy2o)
-* Acesse a documentação completa
+* Acesse a documentação completa em PDF: [Documentação do Back/Front e AWS Configs](https://github.com/JenniferTondade/ProjetoNuvem/blob/main/Documenta%C3%A7%C3%A3o%20-%20ProjetoNuvem.pdf)
 
 ### Como rodar a aplicação em ambiente local:
 1. instale o Docker e faça login <br>
